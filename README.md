@@ -18,8 +18,8 @@ Das Figma zu dem Projekt findest du unter folgendem Link: https://www.figma.com/
 - Marvin Karhan
 - Nathalie Sauer
 
-## Technologien:
-**Lerntagebuch:**
+## Technologien
+**Lerntagebuch**
 - Markup
 
 <br>
