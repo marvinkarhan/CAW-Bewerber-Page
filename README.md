@@ -11,7 +11,7 @@ In diesem Repository sind folgende Inhalte enthalten:
 
 Die GitHub pages seite enthalten in diesem repository kann über folgenden Link erreicht werden: https://marvinkarhan.github.io/CAW-Bewerber-Page/
 
-Das Figma zu dem Projekt findest du unter folgendem Link: https://www.figma.com/file/jApReVEiKMxyKTUBsVW1Ax/Bewerber*innen
+Das Figma zu dem Projekt findest du unter folgendem Link: https://www.figma.com/file/f5XxCS3GryHHsIHv5o8uQc/Bewerber-innen
 
 ## Team
 - Joel Staubach
