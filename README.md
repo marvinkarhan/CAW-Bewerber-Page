@@ -1,4 +1,4 @@
-## Campusmanagement als Applikationskontext für Webanwendungen
+# Campusmanagement als Applikationskontext für Webanwendungen
 
 Das ist das Repository des CAW Studentenprojekts, welches sich mit der Gestaltung des Campusmanagement Systems der Hochschule Mannheim befasst.
 Die Studenten haben Gruppen gebildet und sich die zu bearbeitenden Bereiches des CMS aufgeteilt.
