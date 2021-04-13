@@ -1,5 +1,8 @@
 # Ideen von Joel
 
+## Fragen
+- Soll das nur diese Einleitungssseite sein, oder der gesamte Bewerbungsprozess?
+
 ## Zum Inhalt
 - Registrierung und Verlinkung zu Hochschulstart falls relevant
 - Infos zum Studiengang
