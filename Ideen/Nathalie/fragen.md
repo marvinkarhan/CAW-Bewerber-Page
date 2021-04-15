@@ -20,6 +20,7 @@
 
 - Welche Bewerbungsfristen gibt es? Gibt es einheitliche Fristen?
 
+- Detailansicht zu den Studiengängen direkt im Portal oder auf die Informationen auf der Website verlinken?
 
 ## Lerntagebuch
 
@@ -27,3 +28,9 @@
 - Pro Tag ein Protokoll oder pro Woche ein Protokoll?
 - "Nur" Protokoll über das, was wir gemacht haben?
 - Aufgliedern, wer was gemacht hat?
+
+## Organisation
+
+- Wir brauchen Berechtigung um Klassen zu schreiben & hochzuladen für CSS-Styles
+- Webex Teams
+- Bis wann genau muss die Bewerber*innen Seite fertig sein?
