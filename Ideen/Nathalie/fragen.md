@@ -1,3 +1,5 @@
+# Fragen für Freitag (16.04.2021)
+
 - Wie läuft das Bewerbungsverfahren grundsätzlich ab?
 - Müssen Unterlagen postalisch an die Hochschule gesendet werden?
 
@@ -19,8 +21,9 @@
 - Welche Bewerbungsfristen gibt es? Gibt es einheitliche Fristen?
 
 
-### Lerntagebuch
+## Lerntagebuch
 
 - Wie genau müssen die "gearbeiteten" Stunden protokolliert werden?
 - Pro Tag ein Protokoll oder pro Woche ein Protokoll?
 - "Nur" Protokoll über das, was wir gemacht haben?
+- Aufgliedern, wer was gemacht hat?
