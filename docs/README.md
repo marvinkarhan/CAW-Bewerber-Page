@@ -5,4 +5,4 @@
 - Im Ordner `_posts` können Kapitel für das Lerntagebuch angelegt werden.
   - *Title* und *date* sind metadaten die am anfange jeder Seite stehen.
   - Die erste Absatz des Textes wird zusätzlich als Beschreibung des Kapitels auf der landingpage angezeigt.
-- Dateinamen spielen keine rolle und dienen zur orientierung.
+- Dateiname muss der folgenden Konvention folgen: yyyy-mm-dd-title.md
