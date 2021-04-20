@@ -1,3 +1,9 @@
+* {
+  font-family: Merriweather Sans;
+  padding: 0;
+  margin: 0;
+}
+
 :root {
   --primary-font-color: #212121;
   --primary-background-color: #22376f;
@@ -6,15 +12,18 @@
   --primary-border-color: #c4c4c4;
   --primary-color-disabled: rgba(33, 33, 33, 0.4);
 }
-* {
-  padding: 0;
-  font-family: Merriweather Sans;
-  margin: 0;
-}
+
 .application-wrapper {
   padding: 0 6vw 0 6vw;
   display: flex;
   background-color: var(--secondary-white);
+}
+
+.application-main-content {
+  padding-top: 6vh;
+  width: 60%;
+  min-width: 650px;
+  margin-right: 80px;
 }
 
 .application-title {

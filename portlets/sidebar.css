@@ -1,3 +1,10 @@
+.application-sidebar {
+  margin-left: auto;
+  width: 300px;
+  min-height: 90vh;
+  padding: 6vh 20px 30px 50px;
+  border-left: 1px solid var(--primary-border-color);
+}
 
 .sidebar-links {
   margin-bottom: 90px;
