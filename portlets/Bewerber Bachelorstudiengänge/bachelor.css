@@ -14,7 +14,7 @@
   padding: 18px;
   margin-bottom: 15px;
   background-color: var(--card-background-color);
-  filter: var(--card-drop-shadow);
+  box-shadow: var(--card-box-shadow);
   text-decoration: none;
 }
 

@@ -11,7 +11,7 @@
   --secondary-white: #fefefe;
   --primary-border-color: #c4c4c4;
   --primary-color-disabled: rgba(33, 33, 33, 0.4);
-  --card-drop-shadow: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+  --card-box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
   --card-background-color: rgb(233, 235, 241);
 }
 
