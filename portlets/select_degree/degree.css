@@ -47,7 +47,7 @@
   height: 24px;
   width: 24px;
   margin-right: 8px;
-  background-image: url("link.svg");
+  background-image: url("../assets/link.svg");
   background-repeat: no-repeat;
 }
 
@@ -120,7 +120,7 @@
   height: 24px;
   width: 24px;
   margin-right: 8px;
-  background-image: url("telephone.svg");
+  background-image: url("../assets/telephone.svg");
   background-repeat: no-repeat;
 }
 .sidebar-contact-communication > .mail::before {
@@ -129,7 +129,7 @@
   height: 24px;
   width: 24px;
   margin-right: 8px;
-  background-image: url("mail.svg");
+  background-image: url("../assets/mail.svg");
   background-repeat: no-repeat;
 }
 .sidebar-contact-communication-item {
