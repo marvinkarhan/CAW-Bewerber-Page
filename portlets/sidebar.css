@@ -1,0 +1,120 @@
+
+.sidebar-links {
+  margin-bottom: 90px;
+}
+
+.sidebar-links > li {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  list-style: none;
+}
+
+.sidebar-links > li::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  background-image: url("../assets/link.svg");
+  background-repeat: no-repeat;
+}
+
+.sidebar-steps {
+  margin-bottom: 110px;
+}
+
+.sidebar-step-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.sidebar-step-item-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--primary-color-disabled);
+  background-color: var(--primary-white);
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: var(--primary-color-disabled);
+  margin-right: 12px;
+}
+
+.sidebar-step-item-circle.active {
+  border: 2px solid var(--primary-background-color);
+  background-color: var(--primary-background-color);
+  color: var(--primary-white);
+}
+
+.sidebar-step-item-text {
+  width: 160px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--primary-color-disabled);
+}
+
+.sidebar-step-item-text.active {
+  color: var(--primary-background-color);
+}
+
+.sidebar-line {
+  height: 35px;
+  margin-left: 32px;
+  width: 1px;
+  background-color: var(--primary-color-disabled);
+}
+
+.sidebar-line.active {
+  background-color: var(--primary-background-color);
+}
+
+.sidebar-contact-header.small-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-contact-address {
+  margin-bottom: 10px;
+}
+
+.sidebar-contact-communication-item {
+  display: flex;
+}
+
+.sidebar-contact-communication {
+  list-style-type: none;
+}
+
+.sidebar-contact-communication > .telephone::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  background-image: url("../assets/telephone.svg");
+  background-repeat: no-repeat;
+}
+
+.sidebar-contact-communication > .mail::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  background-image: url("../assets/mail.svg");
+  background-repeat: no-repeat;
+}
+
+.sidebar-contact-communication-item {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
