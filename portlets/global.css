@@ -11,6 +11,7 @@
   --secondary-white: #fefefe;
   --primary-border-color: #c4c4c4;
   --primary-color-disabled: rgba(33, 33, 33, 0.4);
+  --card-drop-shadow: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .application-wrapper {
@@ -34,6 +35,7 @@
   color: var(--primary-font-color);
   margin-bottom: 52px;
 }
+
 .bold-white-text {
   font-style: normal;
   font-weight: bold;
@@ -41,6 +43,7 @@
   line-height: 33px;
   color: var(--primary-white);
 }
+
 .link-text {
   font-weight: bold;
   font-size: 18px;
