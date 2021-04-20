@@ -16,6 +16,84 @@
   text-decoration: none;
 }
 
-.degree-faq-title {
+div.degree-faq-title {
   margin-bottom: 21px;
+}
+
+.accordion-degree input {
+  display: none;
+}
+
+.accordion-degree-item {
+  margin-top: .5em;
+  position: relative;
+  filter: var(--card-drop-shadow);
+  font-size: 18px;
+}
+
+.accordion-degree-item-title {
+  box-sizing: border-box;
+  color: var(--primary-white);
+  background-color: var(--primary-background-color);
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 1em;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.accordion-degree-item-close {
+  position: absolute;
+  height: 45px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.accordion-degree-item-content {
+  box-sizing: border-box;
+  transition: all .15s ease-out;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  border: solid var(--primary-border-color);
+  border-width: 0 1px 1px;
+  background-color: var(--secondary-white);
+  padding: 0 8px;
+}
+
+input:checked + .accordion-degree-item {
+  filter: unset;
+}
+
+input:checked + .accordion-degree-item .accordion-degree-item-content {
+  transition: max-height .3s ease-in, padding .15s ease-in;
+  max-height: 1000px;
+  padding: 8px;
+}
+
+input:checked + .accordion-degree-item .accordion-degree-item-close {
+  display: inline-block;
+}
+
+.arrows div .accordion-degree-item-title {
+  padding-left: 35px;
+}
+
+.arrows div .accordion-degree-item-title:before {
+  content: '+';
+  display: block;
+  position: absolute;
+  font-size: 24pt;
+  left: 8px;
+  transition: transform .15s ease-in-out;
+  color: var(--primary-white);
+}
+
+input:checked + div .accordion-degree-item-title:before {
+  transform: rotate(45deg);
 }

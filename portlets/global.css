@@ -23,6 +23,7 @@
 
 .application-main-content {
   padding-top: 6vh;
+  width: 100%;
   min-width: 650px;
   margin-right: 6vw;
 }
