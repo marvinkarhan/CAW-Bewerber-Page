@@ -23,9 +23,8 @@
 
 .application-main-content {
   padding-top: 6vh;
-  width: 60%;
   min-width: 650px;
-  margin-right: 80px;
+  margin-right: 6vw;
 }
 
 .application-title {
