@@ -6,29 +6,8 @@
   border-left: 1px solid var(--primary-border-color);
 }
 
-.sidebar-links {
-  margin-bottom: 90px;
-}
-
-.sidebar-links > li {
-  display: flex;
-  align-items: center;
-  height: 30px;
-  list-style: none;
-}
-
-.sidebar-links > li::before {
-  content: "";
-  display: inline-block;
-  height: 24px;
-  width: 24px;
-  margin-right: 8px;
-  background-image: url("assets/link.svg");
-  background-repeat: no-repeat;
-}
-
 .sidebar-steps {
-  margin-bottom: 110px;
+  margin: 90px 0 110px 0;
 }
 
 .sidebar-step-item {

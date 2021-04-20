@@ -12,6 +12,7 @@
   --primary-border-color: #c4c4c4;
   --primary-color-disabled: rgba(33, 33, 33, 0.4);
   --card-drop-shadow: drop-shadow(-4px 4px 4px rgba(0, 0, 0, 0.25));
+  --card-background-color: rgb(233, 235, 241);
 }
 
 .application-wrapper {
@@ -50,6 +51,23 @@
   line-height: 23px;
   color: var(--primary-background-color);
   text-decoration: none;
+}
+
+.list-links > li {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  list-style: none;
+}
+
+.list-links > li::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  background-image: url("assets/link.svg");
+  background-repeat: no-repeat;
 }
 
 .small-text {
