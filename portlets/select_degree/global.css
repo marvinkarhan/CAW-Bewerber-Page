@@ -1,0 +1,59 @@
+:root {
+  --primary-font-color: #212121;
+  --primary-background-color: #22376f;
+  --primary-white: #fff;
+  --secondary-white: #fefefe;
+  --primary-border-color: #c4c4c4;
+  --primary-color-disabled: rgba(33, 33, 33, 0.4);
+}
+* {
+  padding: 0;
+  font-family: Merriweather Sans;
+  margin: 0;
+}
+.application-wrapper {
+  padding: 0 6vw 0 6vw;
+  display: flex;
+  background-color: var(--secondary-white);
+}
+
+.application-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--primary-font-color);
+  margin-bottom: 52px;
+}
+.bold-white-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: var(--primary-white);
+}
+.link-text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--primary-background-color);
+  text-decoration: none;
+}
+
+.small-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--primary-font-color);
+  text-decoration: none;
+}
+
+.regular-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--primary-background-color);
+  text-decoration: none;
+}
