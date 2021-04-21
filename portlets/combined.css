@@ -1,0 +1,342 @@
+/* Styles from: global.css */
+* {
+  font-family: Merriweather Sans;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-font-color: #212121;
+  --primary-background-color: #22376f;
+  --primary-white: #fff;
+  --secondary-white: #fefefe;
+  --primary-border-color: #c4c4c4;
+  --primary-color-disabled: rgba(33, 33, 33, 0.4);
+  --card-box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+  --card-background-color: rgb(233, 235, 241);
+}
+
+.application-wrapper {
+  padding: 0 6vw 0 6vw;
+  display: flex;
+  background-color: var(--secondary-white);
+}
+
+.application-main-content {
+  padding-top: 6vh;
+  width: 100%;
+  min-width: 650px;
+  margin-right: 6vw;
+}
+
+.application-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--primary-font-color);
+  margin-bottom: 52px;
+}
+
+.bold-white-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: var(--primary-white);
+}
+
+.link-text {
+  flex: 1;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: var(--primary-background-color);
+  text-decoration: none;
+}
+
+.list-links > li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+.list-links > li::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  background-image: url("assets/link.svg");
+  background-repeat: no-repeat;
+}
+
+.small-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--primary-font-color);
+  text-decoration: none;
+}
+
+.regular-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--primary-background-color);
+  text-decoration: none;
+}
+/* Styles from: sidebar.css */
+.application-sidebar {
+  margin-left: auto;
+  width: 300px;
+  min-height: 90vh;
+  padding: 6vh 20px 30px 50px;
+  border-left: 1px solid var(--primary-border-color);
+}
+
+.sidebar-steps {
+  margin: 90px 0 110px 0;
+}
+
+.sidebar-step-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.sidebar-step-item-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--primary-color-disabled);
+  background-color: var(--primary-white);
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: var(--primary-color-disabled);
+  margin-right: 12px;
+}
+
+.sidebar-step-item-circle.active {
+  border: 2px solid var(--primary-background-color);
+  background-color: var(--primary-background-color);
+  color: var(--primary-white);
+}
+
+.sidebar-step-item-text {
+  width: 160px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: var(--primary-color-disabled);
+}
+
+.sidebar-step-item-text.active {
+  color: var(--primary-background-color);
+}
+
+.sidebar-line {
+  height: 35px;
+  margin-left: 32px;
+  width: 1px;
+  background-color: var(--primary-color-disabled);
+}
+
+.sidebar-line.active {
+  background-color: var(--primary-background-color);
+}
+
+.sidebar-contact-header.small-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-contact-address {
+  margin-bottom: 10px;
+}
+
+.sidebar-contact-communication-item {
+  display: flex;
+}
+
+.sidebar-contact-communication {
+  list-style-type: none;
+}
+
+.sidebar-contact-communication > .telephone::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  background-image: url("assets/telephone.svg");
+  background-repeat: no-repeat;
+}
+
+.sidebar-contact-communication > .mail::before {
+  content: "";
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  background-image: url("assets/mail.svg");
+  background-repeat: no-repeat;
+}
+
+.sidebar-contact-communication-item {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+/* Styles from: bachelor.css */
+.bachelor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2%;
+  margin-bottom: 42px;
+}
+
+.bachelor-card {
+  flex: 1 1 30ch;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 18px;
+  margin-bottom: 15px;
+  background-color: var(--card-background-color);
+  box-shadow: var(--card-box-shadow);
+  text-decoration: none;
+}
+
+.bachelor-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bachelor-card-list > li {
+  border-bottom: 1px solid var(--primary-border-color);
+}
+
+.bachelor-card-list > li:last-child {
+  border-bottom: 0px;
+}
+
+.bachelor-card-title {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 2px solid var(--primary-border-color);
+}
+/* Styles from: degree.css */
+.degree-cards {
+  display: flex;
+  width: 100%;
+  gap: 4%;
+  margin-bottom: 52px;
+}
+
+.degree-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  height: 238px;
+  background-color: var(--primary-background-color);
+  box-shadow: var(--card-box-shadow);
+  text-decoration: none;
+}
+
+div.degree-faq-title {
+  margin-bottom: 21px;
+}
+
+.accordion-degree input {
+  display: none;
+}
+
+.accordion-degree-item {
+  margin-top: .5em;
+  position: relative;
+  box-shadow: var(--card-box-shadow);
+  font-size: 18px;
+}
+
+.accordion-degree-item-title {
+  box-sizing: border-box;
+  color: var(--primary-white);
+  background-color: var(--primary-background-color);
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 1em;
+  display: inline-block;
+  cursor: pointer;
+  user-select: none;
+}
+
+.accordion-degree-item-close {
+  position: absolute;
+  height: 45px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
+}
+
+.accordion-degree-item-content {
+  box-sizing: border-box;
+  transition: all .15s ease-out;
+  width: 100%;
+  max-height: 0;
+  overflow: hidden;
+  border: solid var(--primary-border-color);
+  border-width: 0 1px 1px;
+  background-color: var(--secondary-white);
+  padding: 0 8px;
+}
+
+input:checked + .accordion-degree-item {
+  box-shadow: unset;
+}
+
+input:checked + .accordion-degree-item .accordion-degree-item-content {
+  transition: max-height .3s ease-in, padding .15s ease-in;
+  max-height: 1000px;
+  padding: 8px;
+}
+
+input:checked + .accordion-degree-item .accordion-degree-item-close {
+  display: inline-block;
+}
+
+.arrows div .accordion-degree-item-title {
+  padding-left: 35px;
+}
+
+.arrows div .accordion-degree-item-title:before {
+  content: '+';
+  display: block;
+  position: absolute;
+  font-size: 24pt;
+  left: 8px;
+  transition: transform .15s ease-in-out;
+  color: var(--primary-white);
+}
+
+input:checked + div .accordion-degree-item-title:before {
+  transform: rotate(45deg);
+}
