@@ -10,10 +10,14 @@
   margin: 90px 0 110px 0;
 }
 
-.sidebar-step-item {
+.application-wrapper .sidebar-step-item,
+.application-wrapper .sidebar-step-item:hover,
+.application-wrapper .sidebar-step-item:active {
   display: flex;
   align-items: center;
   text-decoration: none;
+  background-color: transparent !important;
+  text-decoration: none !important;
 }
 
 .sidebar-step-item-circle {

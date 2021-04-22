@@ -45,12 +45,13 @@
   color: var(--primary-white);
 }
 
-.link-text {
+.application-wrapper .link-text, .application-wrapper .link-text:hover, .application-wrapper .link-text:active {
   flex: 1;
   font-weight: bold;
   font-size: 18px;
   line-height: 23px;
-  color: var(--primary-background-color);
+  color: var(--primary-background-color) !important;
+  background-color: var(--primary-white) !important;
   text-decoration: none;
 }
 
@@ -71,20 +72,29 @@
   background-repeat: no-repeat;
 }
 
-.small-text {
+
+.application-wrapper a:hover, .application-wrapper a:active {
+  background-color: var(--primary-background-color)  !important;
+  text-decoration: none  !important;
+  color: var(--primary-white)  !important;
+}
+
+.application-wrapper .small-text, .application-wrapper a.small-text:hover, .application-wrapper a.small-text:active {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
-  color: var(--primary-font-color);
-  text-decoration: none;
+  background-color: var(--primary-white) !important;
+  color: var(--primary-font-color) i !important;
+  text-decoration: none !important;
 }
 
-.regular-text {
+.application-wrapper .regular-text, .application-wrapper .regular-text:hover, .application-wrapper .regular-text:active {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: var(--primary-background-color);
-  text-decoration: none;
+  color: var(--primary-background-color) !important;
+  background-color: var(--primary-white) !important;
+  text-decoration: none !important;
 }

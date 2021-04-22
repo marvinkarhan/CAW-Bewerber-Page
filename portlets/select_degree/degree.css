@@ -93,7 +93,7 @@ div.degree-faq-title {
   display: inline-block;
 }
 
-.accordion-close {
+.application-wrapper .accordion-close, .application-wrapper .accordion-close:hover, .application-wrapper .accordion-close:active {
   position: absolute;
   height: 45px;
   width: 100%;
@@ -101,4 +101,5 @@ div.degree-faq-title {
   left: 0;
   cursor: pointer;
   display: none;
+  background-color: transparent !important;
 }
