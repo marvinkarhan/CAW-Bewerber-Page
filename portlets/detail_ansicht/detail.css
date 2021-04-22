@@ -1,0 +1,20 @@
+.degree-information {
+  text-align: left;
+}
+
+.degree-information th,.degree-information td {
+  padding: .35em .5em;
+  vertical-align: top;
+}
+
+.degree-next-steps {
+  margin-top: 5em;
+}
+
+.degree-next-steps .application-title {
+  margin: 0.5em 0;
+}
+
+.degree-next-steps ol {
+  list-style-position: inside;
+}
