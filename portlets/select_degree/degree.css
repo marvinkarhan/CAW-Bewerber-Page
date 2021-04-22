@@ -37,13 +37,13 @@ div.degree-faq-title {
   display: block;
 }
 
-#accordion ul li a {
+.accordion-title{
   text-decoration: none;
   display: block;
   padding: 10px;
 }
 
-#accordion ul li a {
+.accordion-title {
   box-sizing: border-box;
   color: var(--primary-white);
   background-color: var(--primary-background-color);
@@ -89,7 +89,16 @@ div.degree-faq-title {
   padding: 8px;
 }
 
-#accordion img {
-  float: left;
-  padding: 1px;
+.accordion:target .accordion-close {
+  display: inline-block;
+}
+
+.accordion-close {
+  position: absolute;
+  height: 45px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  display: none;
 }
