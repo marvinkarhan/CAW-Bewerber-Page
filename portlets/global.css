@@ -67,7 +67,7 @@
   height: 24px;
   width: 24px;
   margin-right: 8px;
-  background-image: url("assets/link.svg");
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20id%3D%22Ebene_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cstyle%3E.st0%7Bfill%3A%2322386e%7D.st1%7Bfill%3A%23fff%7D.st2%7Bfill%3Anone%3Bstroke%3A%23fff%3Bstroke-miterlimit%3A10%7D%3C%2Fstyle%3E%3Ccircle%20class%3D%22st0%22%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%2F%3E%3Cpath%20class%3D%22st1%22%20d%3D%22M17%2016h-1v-1h1v1zm-2%200h-1v-1h1v1zm-2%200h-1v-1h1v1zm-2%200h-1v-1h1v1zm-2%200H8v-1h1v1z%22%2F%3E%3Cpath%20class%3D%22st2%22%20d%3D%22M9%2013l3.8-3.8%22%2F%3E%3Cpath%20class%3D%22st1%22%20d%3D%22M9.8%206.9l5.2%205.2V6.9z%22%2F%3E%3C%2Fsvg%3E");
   background-repeat: no-repeat;
 }
 
