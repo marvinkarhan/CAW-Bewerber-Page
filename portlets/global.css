@@ -52,7 +52,7 @@
   font-size: 18px;
   line-height: 23px;
   color: var(--primary-background-color) !important;
-  background-color: var(--primary-white) !important;
+  background-color: transparent !important;
   text-decoration: none;
 }
 
