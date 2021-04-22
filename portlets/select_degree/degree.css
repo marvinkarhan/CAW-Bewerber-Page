@@ -72,6 +72,7 @@ div.degree-faq-title {
   content: '+';
   display: block;
   position: absolute;
+  pointer-events: none;
   font-size: 24pt;
   left: 8px;
   top: 4px;
@@ -93,7 +94,7 @@ div.degree-faq-title {
   display: inline-block;
 }
 
-.application-wrapper .accordion-close, .application-wrapper .accordion-close:hover, .application-wrapper .accordion-close:active {
+.application-wrapper .accordion-close {
   position: absolute;
   height: 45px;
   width: 100%;
@@ -101,5 +102,8 @@ div.degree-faq-title {
   left: 0;
   cursor: pointer;
   display: none;
+}
+
+.application-wrapper .accordion-close:hover, .application-wrapper .accordion-close:active {
   background-color: transparent !important;
 }
