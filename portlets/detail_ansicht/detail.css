@@ -1,10 +1,27 @@
-.degree-information {
-  text-align: left;
+.degree-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-.degree-information th,.degree-information td {
-  padding: .35em .5em;
+.degree-information {
+  text-align: left;
+  flex: 1 0 650px;
+}
+
+.degree-information th {
+  padding: .35em 1em .35em 0;
   vertical-align: top;
+}
+
+.degree-information td {
+  padding: .35em 0;
+}
+
+.degree-contact.application-card {
+  flex: 0 1 250px;
+  gap: 0;
+  height: fit-content;
 }
 
 .degree-next-steps {
