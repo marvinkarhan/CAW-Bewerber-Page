@@ -54,6 +54,7 @@
   font-weight: bold;
   color: var(--primary-background-color);
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .inline-link.external-link::after {

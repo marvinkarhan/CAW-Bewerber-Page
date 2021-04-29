@@ -7,7 +7,7 @@ SIDEBAR = '<div class="application-sidebar">    <h1 class="application-title">NÃ
 
 options = Options()
 options.headless = True
-
+options.add_argument('log-level=3')
 driver = webdriver.Chrome('./chromedriver', options=options)
 
 driver.get(
@@ -72,19 +72,28 @@ def parse_page_to_html(href):
     html += f'<h1 class="application-title">{headline.text}</h1>'
     html += '<div class="degree-content-wrapper">'
     # get tabular degree information
-    tableContent = driver.find_element_by_css_selector("table")
-    if tableContent:
+    try:
+        tableContent = driver.find_element_by_css_selector("table")
         mainContent = get_main_content_of_table(tableContent)
         html += main_content_to_html(mainContent)
+    except:
+        print(f'No Table found in: {href}')
     # get contact information
-    contacts = driver.find_element_by_xpath(
-        '/html/body/div[1]/div[2]/section/div/main/div[2]/div[2]/div/div/div')
-    if contacts:
+    try:
+        contacts = driver.find_element_by_xpath(
+            '/html/body/div[1]/div[2]/section/div/main/div[2]/div[2]/div/div/div')
         html += parse_contact_html(contacts)
+    except:
+        print(f'No Contact information for: {href} available!')
     html += '</div></div>'
     html += SIDEBAR
     html += '</div>'
     return html
+
+
+def get_next_steps():
+    # TODO: filter hochschulstart links
+    pass
 
 
 def create_folders():
