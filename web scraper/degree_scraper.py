@@ -84,6 +84,12 @@ def extract_degree_links():
         "href") for element in driver.find_elements_by_xpath("//table//td/a")]
 
 
+def remove_illegal_tags(html: str) -> str:
+    html = html.replace('<strong>', '<div class="application-bold-text">')
+    html = html.replace('</strong>', '</div>')
+    return html
+
+
 def parse_page_to_html(href):
     print(f'\nParsing {href} ...')
     driver.get(href)
@@ -108,9 +114,9 @@ def parse_page_to_html(href):
     except:
         print(f'No Contact information for: {href} available!')
     html += f'</div>{next_steps}</div>'
-    global_next_steps = ''
     html += SIDEBAR
     html += '</div>'
+    html = remove_illegal_tags(html)
     return html
 
 
