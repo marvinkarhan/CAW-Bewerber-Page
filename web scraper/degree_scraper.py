@@ -41,8 +41,8 @@ def parse_contact_html(contact):
         "//span[@class='u-icon--link-phone']")
     for phoneSpan in phoneSpans:
         driver.execute_script(
-            "arguments[0].setAttribute('class','telephone')", phoneSpan)
-    return f'<div class="degree-contact">{contact.get_attribute("innerHTML")}</div>'
+            "arguments[0].setAttribute('class','inline-telephone telephone')", phoneSpan)
+    return f'<div class="degree-contact application-card">{contact.get_attribute("innerHTML")}</div>'
 
 
 def set_link_classes(el):
@@ -51,7 +51,7 @@ def set_link_classes(el):
         classes = link.get_attribute("class")
         if 'mail' in classes:
             driver.execute_script(
-                "arguments[0].setAttribute('class','mail')", link)
+                "arguments[0].setAttribute('class','inline-mail mail')", link)
             mailRef = link.text
             driver.execute_script(
                 f"arguments[0].setAttribute('href','mailto:{mailRef}')", link)
@@ -70,6 +70,7 @@ def parse_page_to_html(href):
     html = '<div class="application-wrapper"><div class="application-main-content">'
     headline = driver.find_element_by_css_selector('h1')
     html += f'<h1 class="application-title">{headline.text}</h1>'
+    html += '<div class="degree-content-wrapper">'
     # get tabular degree information
     tableContent = driver.find_element_by_css_selector("table")
     if tableContent:
@@ -80,7 +81,7 @@ def parse_page_to_html(href):
         '/html/body/div[1]/div[2]/section/div/main/div[2]/div[2]/div/div/div')
     if contacts:
         html += parse_contact_html(contacts)
-    html += '</div>'
+    html += '</div></div>'
     html += SIDEBAR
     html += '</div>'
     return html
