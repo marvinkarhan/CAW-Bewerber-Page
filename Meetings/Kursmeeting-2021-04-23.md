@@ -6,6 +6,7 @@
 - dieses Semester Gestaltung aus Bewerbungsprozess rausnehmen
 - Detailansichtsseite von Paulus genehmigt
 - Fragen an Paule bis Mittwoch per Mail an Derevyankina
-- Mail an D wegen Recht zum Pull-Request stellen
+- Mail an Frau Derevyankina wegen Recht zum Pull-Request stellen
+- Link Gitlab: https://scm099.hsz-bw.de/users/sign_in
 
 - Dauer 1,5 Stunden
