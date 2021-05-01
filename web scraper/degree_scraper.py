@@ -2,12 +2,13 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
 import shutil
+import re
 
 SIDEBAR = '<div class="application-sidebar">    <h1 class="application-title">Nützliche Links</h1>    <ul class="list-links">      <li><a class="link-text" target="_blank" href="https://www.hs-mannheim.de/bewerbung/vorbereitungskurse.html">Vorbereitungskurse</a></li>      <li><a class="link-text" target="_blank" href="https://www.hs-mannheim.de/bewerbung/nc-werte.html">NC-Werte</a></li>      <li><a class="link-text" target="_blank" href="https://www.hs-mannheim.de/bewerbung/bewerbungsunterlagen.html">Bewerbungsunterlagen</a></li>      <li><a class="link-text" target="_blank" href="https://www.hs-mannheim.de/bewerbung/zulassungsvoraussetzungen.html">Zulassungsvorraussetzungen</a></li>    </ul>    <div class="sidebar-steps">      <a href="https://c-campus.hs-mannheim.de/qisserver/pages/cs/sys/portal/linkedPortlet.faces?portletGuid=88fde149-9fce-4dcc-8cee-8a5a8207bea7&sig=3344a8ffbff58348d1d26b591057b03b" class="sidebar-step-item">        <div class="sidebar-step-item-circle active">1</div>        <div class="sidebar-step-item-text active">Abschluss wählen</div>      </a>      <div class="sidebar-line active"></div>      <a href="https://c-campus.hs-mannheim.de/qisserver/pages/cs/sys/portal/linkedPortlet.faces?portletGuid=cec79cdb-38fd-43fc-8dac-8f33bec6cc01&sig=c8d5461e8b3562b6da1091e7e3b60412" class="sidebar-step-item">        <div class="sidebar-step-item-circle active">2</div>        <div class="sidebar-step-item-text active">Studiengang auswählen</div>      </a>      <div class="sidebar-line active"></div>      <a href="" class="sidebar-step-item">        <div class="sidebar-step-item-circle active">3</div>        <div class="sidebar-step-item-text active">Bewerbung durchführen</div>      </a>    </div>    <div class="sidebar-contact">      <div class="sidebar-contact-header small-text">Kontakt</div>      <div class="sidebar-contact-address">        <div class="small-text">Hochschule Mannheim</div>        <div class="small-text">Paul-Wittsack-Straße 10</div>        <div class="small-text">68163 Mannheim</div>      </div>      <ul class="sidebar-contact-communication">        <li class="sidebar-contact-communication-item telephone">          <a href="tel:" class="small-text">+49 621 292-6111</a>        </li>        <li class="sidebar-contact-communication-item small-text mail">          <a href="mailto:studium@hs-mannheim.de" class="regular-text">studium@hs-mannheim.de</a>        </li>      </ul>    </div>  </div>'
 
 options = Options()
 options.headless = True
-
+options.add_argument('log-level=3')
 driver = webdriver.Chrome('./chromedriver', options=options)
 
 driver.get(
@@ -26,12 +27,30 @@ def get_main_content_of_table(table):
     return mainContent
 
 
+def get_next_steps(with_hochschulstart, edge_case=''):
+    next_steps = '<div class="degree-next-steps"><h1 class="application-title">Nächste Schritte</h1><ol>'
+    if with_hochschulstart:
+        next_steps += '<li>Registrieren Sie sich bei <a href="https://dosv.hochschulstart.de" target="_blank" class="inline-link external-link">hochschulstart</a></li>'
+    else:
+        print(f'Application Edge Case: {edge_case}')
+    next_steps += '<li>Registrieren Sie sich hier im <a href="https://c-campus.hs-mannheim.de/qisserver/pages/psv/selbstregistrierung/pub/selbstregistrierung.xhtml?_flowId=selfRegistrationRegister-flow&_flowExecutionKey=e1s1" class="inline-link external-link">Bewerbungs-Portal</a></li>'
+    next_steps += '</ol></div>'
+    return next_steps
+
+
 def main_content_to_html(dict):
     html = '<table class="degree-information"><tbody>'
+    next_steps = ''
     for th, td in dict.items():
-        html += f'<tr><th>{th}</th><td>{td}</td></tr>'
+        if 'Bewerbung' == th:
+            if 'hochschulstart.de' in td:
+                next_steps = get_next_steps(True)
+            else:
+                next_steps = get_next_steps(False, td)
+        else:
+            html += f'<tr><th>{th}</th><td>{td}</td></tr>'
     html += '</tbody></table>'
-    return html
+    return [html, next_steps]
 
 
 def parse_contact_html(contact):
@@ -65,25 +84,39 @@ def extract_degree_links():
         "href") for element in driver.find_elements_by_xpath("//table//td/a")]
 
 
+def remove_illegal_tags(html: str) -> str:
+    html = html.replace('<strong>', '<div class="application-bold-text">')
+    html = html.replace('</strong>', '</div>')
+    return html
+
+
 def parse_page_to_html(href):
+    print(f'\nParsing {href} ...')
     driver.get(href)
     html = '<div class="application-wrapper"><div class="application-main-content">'
     headline = driver.find_element_by_css_selector('h1')
     html += f'<h1 class="application-title">{headline.text}</h1>'
     html += '<div class="degree-content-wrapper">'
     # get tabular degree information
-    tableContent = driver.find_element_by_css_selector("table")
-    if tableContent:
+    next_steps = ''
+    try:
+        tableContent = driver.find_element_by_css_selector("table")
         mainContent = get_main_content_of_table(tableContent)
-        html += main_content_to_html(mainContent)
+        content_html, next_steps = main_content_to_html(mainContent)
+        html += content_html
+    except:
+        print(f'No Table found in: {href}')
     # get contact information
-    contacts = driver.find_element_by_xpath(
-        '/html/body/div[1]/div[2]/section/div/main/div[2]/div[2]/div/div/div')
-    if contacts:
+    try:
+        contacts = driver.find_element_by_xpath(
+            '/html/body/div[1]/div[2]/section/div/main/div[2]/div[2]/div/div/div')
         html += parse_contact_html(contacts)
-    html += '</div></div>'
+    except:
+        print(f'No Contact information for: {href} available!')
+    html += f'</div>{next_steps}</div>'
     html += SIDEBAR
     html += '</div>'
+    html = remove_illegal_tags(html)
     return html
 
 
