@@ -81,7 +81,7 @@ def parse_page_to_html(href):
     print(f'\nParsing {href} ...')
     driver.get(href)
     id = href.split('/')[-1].split('.')[0]
-    html = f'<div id={id} class="application-wrapper"><div class="application-main-content">'
+    html = f'<div id="{id}" class="application-wrapper"><div class="application-main-content">'
     headline = driver.find_element_by_css_selector('h1')
     html += f'<h1 class="application-title">{headline.text}</h1>'
     html += '<div class="degree-content-wrapper">'
