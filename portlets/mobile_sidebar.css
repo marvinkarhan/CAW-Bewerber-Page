@@ -44,3 +44,8 @@
   align-items: center;
   height: 30px;
 }
+
+.sidebar-contact-communication-item .mail, .sidebar-contact-communication-item .telephone {
+  display: flex;
+  align-items: center;
+}

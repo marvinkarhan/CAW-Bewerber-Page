@@ -135,7 +135,7 @@
 
 /* ------- following links are the refactored classes of proceeding classes ------- */
 .telephone::before, .mail::before, .link-text::before {
-  content: """";
+  content: "";
   display: inline-block;
   min-height: 24px;
   min-width: 24px;
@@ -170,7 +170,7 @@
   font-weight: bold;
   color: var(--primary-background-color);
   text-decoration: none;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .inline-link.external-link::after {
@@ -222,7 +222,7 @@
 }
 
 .inline-telephone, .inline-mail {
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .inline-telephone.telephone::before, .inline-mail.mail::before {
@@ -231,7 +231,7 @@
   margin: 0 2px 0 0;
   vertical-align: middle;
 }
-
+/* excluded normally */
 a.dark-background-link:hover, a.dark-background-link:focus {
   --highlightBackgroundColor: #4E5F8C;
   background-color: var(--highlightBackgroundColor) !important;

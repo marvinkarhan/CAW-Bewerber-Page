@@ -1,3 +1,10 @@
+@media only screen and (max-width: 600px) {
+  .degree-information tr {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .degree-content-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -6,7 +13,7 @@
 
 .degree-information {
   text-align: left;
-  flex: 1 0 650px;
+  flex: 1 0 0;
 }
 
 .degree-information th {
