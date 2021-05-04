@@ -1,7 +1,8 @@
 .degree-cards {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  gap: 4%;
+  gap: 1em;
   margin-bottom: 52px;
 }
 

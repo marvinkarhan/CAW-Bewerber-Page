@@ -1,0 +1,46 @@
+.application-sidebar {
+  margin-top: 52px;
+}
+
+.application-sidebar .application-title {
+  margin-bottom: 21px;
+}
+
+.sidebar-steps {
+  display: none;
+}
+
+.sidebar-line {
+  height: 35px;
+  margin-left: 32px;
+  width: 1px;
+  background-color: var(--primary-color-disabled);
+}
+
+.sidebar-line.active {
+  background-color: var(--primary-background-color);
+}
+
+.sidebar-contact {
+  margin-top: 21px;
+}
+
+.sidebar-contact-header.small-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar-contact-address {
+  margin-bottom: 10px;
+}
+
+.sidebar-contact-communication {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-contact-communication-item {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}

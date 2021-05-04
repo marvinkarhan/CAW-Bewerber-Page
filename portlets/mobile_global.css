@@ -1,0 +1,36 @@
+.application-wrapper {
+  padding: 0 6vw 0 6vw;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--secondary-white);
+}
+
+.application-main-content {
+  padding-top: 6vh;
+  width: 100%;
+  margin-right: 6vw;
+}
+
+.list-links {
+  padding: 0;
+}
+
+.list-links > li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-bottom: 8px;
+}
+
+/* .application-wrapper a:hover, .application-wrapper a:active {
+  background-color: var(--primary-background-color)  !important;
+  text-decoration: none  !important;
+  color: var(--primary-white)  !important;
+} */
+
+.application-card-svg {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+}
