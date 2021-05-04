@@ -143,17 +143,6 @@
   background-repeat: no-repeat;
 }
 
-.link-text {
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  font-size: 18px;
-  color: var(--primary-background-color);
-  background-color: transparent;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
 .mail::before {
   background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20id%3D%22Ebene_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cstyle%3E.st0%7Bfill%3A%2322386e%7D.st1%7Bfill%3A%23fff%7D%3C%2Fstyle%3E%3Ccircle%20class%3D%22st0%22%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%2F%3E%3Cpath%20class%3D%22st1%22%20d%3D%22M6%208h12v8H6z%22%2F%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M18%208l-6%203.4L6%208l4.7%203.6L6%2016l5.3-3.6-.6-.8%201%20.8.3-.4.3.4%201-.8-.6.8L18%2016l-4.7-4.4z%22%2F%3E%3C%2Fsvg%3E');
 }
@@ -170,7 +159,7 @@
   color: var(--primary-background-color);
   background-color: transparent;
   text-decoration: none;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .link-text::before {
