@@ -5,6 +5,13 @@
   margin-bottom: 52px;
 }
 
+@media screen and (max-width: 425px) {
+  .degree-cards {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+}
+
 div.degree-faq-title {
   margin-bottom: 21px;
 }
