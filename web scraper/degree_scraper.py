@@ -1,4 +1,3 @@
-from logging import print
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
@@ -50,8 +49,14 @@ def parse_contact_html(contact):
         "//span[@class='u-icon--link-phone']")
     for phoneSpan in phoneSpans:
         driver.execute_script(
-            "arguments[0].setAttribute('class','inline-telephone telephone')", phoneSpan)
-    return f'<div class="degree-contact application-card">{contact.get_attribute("innerHTML")}</div>'
+            "arguments[0].setAttribute('class','inline-telephone telephone')", phoneSpan) 
+    galleries = contact.find_elements_by_class_name('ce-gallery')
+    for gallery in galleries:
+        gallery.set_attribute('outerHTML','')
+    images = contact.find_elements_by_tag_name('img')
+    for image in images:
+        image.set_attribute('outerHTML', '')
+    return f'<div class="degree-contact card">{contact.get_attribute("innerHTML")}</div>'
 
 
 def set_link_classes(el):
@@ -72,6 +77,10 @@ def set_link_classes(el):
 def remove_illegal_tags(html: str) -> str:
     html = html.replace('<strong>', '<span class="bold-text">')
     html = html.replace('</strong>', '</span>')
+    html = html.replace('<header>', '')
+    html = html.replace('</header>', '')
+    html = html.replace('_self', '_blank')
+    html = html.replace('rel="external"', '')
     return html
 
 
@@ -79,7 +88,7 @@ def parse_page_to_html(href):
     print(f'\nParsing {href} ...')
     driver.get(href)
     id = href.split('/')[-1].split('.')[0]
-    html = f'<div id="{id}" class="application-wrapper"><div class="application-main-content">'
+    html = f'<div id="{id}" class="application-main-content application-main-content-hidden">'
     headline = driver.find_element_by_css_selector('h1')
     html += f'<h1 class="application-title">{headline.text}</h1>'
     html += '<div class="degree-content-wrapper">'
@@ -100,7 +109,6 @@ def parse_page_to_html(href):
     except:
         print(f'No Contact information for: {href} available!')
     html += f'</div>{next_steps}</div>'
-    html += '</div>'
     html = remove_illegal_tags(html)
     return html
 
