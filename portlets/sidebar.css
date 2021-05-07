@@ -87,3 +87,22 @@
   display: flex;
   align-items: center;
 }
+
+@media screen and (max-width: 800px) {  
+  .application-sidebar {
+    margin-top: 52px;
+    border-left: none;
+  }
+
+  .application-sidebar .application-title {
+    margin-bottom: 21px;
+  }
+
+  .sidebar-steps {
+    display: none;
+  }
+
+  .sidebar-contact {
+    margin-top: 21px;
+  }
+}
