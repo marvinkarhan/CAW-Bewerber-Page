@@ -3,8 +3,13 @@ import shutil
 
 COMBINED_HTML = './combined_html'
 BACHELOR_GERMAN = './scraped_html/german/bachelor'
-SIDEBAR_BACHELOR = '../portlets/sidebars/sidebar_detail_bachelor.html'
-SIDEBAR_MASTER = '../portlets/sidebars/sidebar_detail_master.html'
+BACHELOR_ENGLISH = './scraped_html/english/bachelor'
+MASTER_GERMAN = './scraped_html/german/master'
+MASTER_ENGLISH = './scraped_html/english/master'
+SIDEBAR_GERMAN_BACHELOR = '../portlets/sidebars/german/sidebar_detail_bachelor.html'
+SIDEBAR_ENGLISH_BACHELOR = '../portlets/sidebars/english/sidebar_detail_bachelor.html'
+SIDEBAR_GERMAN_MASTER = '../portlets/sidebars/german/sidebar_detail_master.html'
+SIDEBAR_ENGLISH_MASTER = '../portlets/sidebars/english/sidebar_detail_master.html'
 def create_folder():
     try:
         shutil.rmtree(COMBINED_HTML)
@@ -28,4 +33,7 @@ def create_file(directory: str, name: str, sidebar: str):
 
 #Start
 create_folder()
-create_file(BACHELOR_GERMAN, 'bachelor_german', SIDEBAR_BACHELOR)
+create_file(BACHELOR_GERMAN, 'bachelor_german', SIDEBAR_GERMAN_BACHELOR)
+create_file(BACHELOR_ENGLISH, 'bachelor_english', SIDEBAR_ENGLISH_BACHELOR)
+create_file(MASTER_GERMAN, 'master_german', SIDEBAR_GERMAN_MASTER)
+create_file(MASTER_ENGLISH, 'master_english', SIDEBAR_ENGLISH_MASTER)

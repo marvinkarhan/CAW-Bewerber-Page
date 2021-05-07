@@ -81,6 +81,9 @@ def remove_illegal_tags(html: str) -> str:
     html = html.replace('</header>', '')
     html = html.replace('_self', '_blank')
     html = html.replace('rel="external"', '')
+    html = html.replace('_top', '_blank')
+    html = html.replace('padding-left:10px;', '')
+    html = html.replace('javascript:', '')
     return html
 
 
