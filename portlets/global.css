@@ -34,3 +34,14 @@
   width: 100px;
   margin: 0 auto;
 }
+
+
+@media screen and (max-width: 800px) {
+  .application-main-content {
+    min-width: auto;
+  }
+
+  .application-wrapper {
+    flex-direction: column;
+  }
+}
