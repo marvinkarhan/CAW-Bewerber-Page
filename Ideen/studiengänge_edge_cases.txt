@@ -1,0 +1,387 @@
+Bachelor:
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/elektrotechnik.html ...
+Application Edge Case: Hochschule Mannheim<br>online via&nbsp; <a href="https://bewerbung.hs-mannheim.de/qisserver/rds?state=wimma&amp;stg=n&amp;imma=einl" title="Link zur HS Mannheim" target="_blank" class="inline-link external-link">HS Mannheim<br></a>
+          Registrieren Sie sich bei der
+          <a
+            href="https://c-campus.hs-mannheim.de/qisserver/pages/psv/selbstregistrierung/pub/selbstregistrierung.xhtml?_flowId=selfRegistrationRegister-flow&_flowExecutionKey=e1s1"
+            class="inline-link external-link"
+          >Hochschule Mannheim</a>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/informationstechnik.html ...
+Application Edge Case: Elektronisch über die Fakultät, s. <a href="https://www.inftech.hs-mannheim.de/master/bewerben.html" target="_blank" class="inline-link external-link">Bewerbung</a>
+        <li>
+          Elektronisch über die Fakultät, s.&nbsp;
+          <a
+            href="https://www.inftech.hs-mannheim.de/master/bewerben.html"
+            class="inline-link external-link"
+            >Bewerben</a
+          >
+        </li>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/maschinenbau.html ...
+Application Edge Case: Bewerbung nur online <a href="https://bewerbung.hs-mannheim.de/qisserver/rds?state=wimma&amp;stg=n&amp;imma=einl" title="Link zur HS Mannheim Online Bewerbung" target="_blank" class="inline-link external-link">www.hs-mannheim.de</a>
+No Contact information for: https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/maschinenbau.html available!
+        <li>
+          Registrieren Sie sich auf
+          <a
+            href="https://bewerbung.hs-mannheim.de/qisserver/rds?state=wimma&amp;stg=n&amp;imma=einl"
+            class="inline-link external-link"
+            >www.hs-mannheim.de</a
+          >
+        </li>
+      <div class="degree-contact card">
+        <h1 class="">Kontakt</h1>
+        <p>
+          <span class="bold-text">Fachstudienberatung</span><br />
+          Studiendekan<br /><span class="bold-text"
+            ><a href="mailto:t.markus@hs-mannheim.de" title="Opens window for sending email" class="inline-mail mail"
+              >Prof. Dr.-Ing. habil. T. Markus</a
+            ></span
+          >
+        </p>
+        <p>
+          <span class="bold-text">Fragen zur Bewerbung</span><br /><a
+            href="https://www.hs-mannheim.de/studierende/service-center-studierende.html"
+            class="inline-link external-link"
+            >Service Center Studierende</a
+          >
+        </p>
+        <p>
+          <span class="bold-text">Allgemeine Fragen zum Studium</span><br /><a
+            href="mailto:Sekretariat der Fakultät"
+            title="Opens window for sending email"
+            class="inline-mail mail"
+            >Sekretariat der Fakultät</a
+          >
+        </p>
+        <p>
+          Weitere Informationen auf den<br />
+          <a
+              href="https://www.mb.hs-mannheim.de/"
+              title="Opens internal link in current window"
+              target="_blank"
+              class="inline-link external-link"
+              >Webseiten der Fakultät</a
+          >
+        </p>
+      </div>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/mechatronik.html ...
+Application Edge Case: Hochshule Mannheim<br>online via &nbsp; <a href="https://bewerbung.hs-mannheim.de/qisserver/rds?state=wimma&amp;stg=n&amp;imma=einl" title="Link zur HS Mannheim" target="_blank" class="inline-link external-link">HS-Mannheim</a>
+        <li>
+          Registrieren Sie sich online via
+          <a
+            href="https://bewerbung.hs-mannheim.de/qisserver/rds?state=wimma&amp;stg=n&amp;imma=einl"
+            class="inline-link external-link"
+            >HS-Mannheim</a
+          >
+        </li>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/bachelorstudiengaenge/translation-studies-for-information-technologies.html ...     
+Application Edge Case: <a href="https://www.uni-heidelberg.de/studium/interesse/faecher/translation_study.html" title="externer Link zur Uni Heidelberg" target="_blank" class="inline-link external-link">Universität Heidelberg</a>
+        <li>
+          Informieren sie sich bei der 
+          <a
+            href="https://www.uni-heidelberg.de/studium/interesse/faecher/translation_study.html"
+            class="inline-link external-link"
+            >Universität Heidelberg</a
+          >
+        </li>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/informatik.html ...
+Application Edge Case: <strong><a href="https://gazoo.informatik.hs-mannheim.de/application/start" target="_blank" class="inline-link external-link"><strong>Online-Bewerbung</strong></a></strong>
+        <li>
+          <a
+            href="https://gazoo.informatik.hs-mannheim.de/application/start"
+            class="inline-link external-link"
+            >Online-Bewerbung</a
+          >
+        </li>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/kommunikationsdesign.html ...
+No Contact information for: https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/kommunikationsdesign.html available!
+      <div class="degree-next-steps">
+        <h1 class="application-title">Nächste Schritte</h1>
+        <ol>
+          <li>
+            Informieren sie sich bei der Fakultät
+            <a href="https://www.gestaltung.hs-mannheim.de/studium/ma-kommunikationsdesign" class="inline-link external-link"
+              >Gestaltung</a
+            >
+          </li>
+        </ol>
+      </div>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/technische-informatik.html ...
+Application Edge Case: Elektronisch über die Fakultät, s. <a href="https://www.inftech.hs-mannheim.de/master/bewerben.html" target="_blank" class="inline-link external-link">Bewerbung</a>
+        <li>
+          Elektronisch über die Fakultät, s.&nbsp;
+          <a
+            href="https://www.inftech.hs-mannheim.de/master/bewerben.html"
+            class="inline-link external-link"
+            >Bewerben</a
+          >
+        </li>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/bachelorstudiengaenge/medizinische-informatik.html ...
+No Contact information for: https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/bachelorstudiengaenge/medizinische-informatik.html available!
+    <div class="degree-contact card">
+      <h2 class="">Kontakt</h2>
+      <p>
+        <span class="bold-text">Allgemeine Fragen zum Studium:</span><br />
+        <a
+          href="https://www.informatik.hs-mannheim.de/wir/menschen/aemter.html#c115520"
+          class="inline-link external-link"
+          >bachelor@mechatronik.hs-mannheim.de</a
+        ><br />Sekretariat der Fakultät Informatik<br>
+        <span class="inline-telephone telephone">+49 621 292-6229</span> | G. Aslan<br>
+        <span class="inline-telephone telephone">+49 621 292-6239</span> | R. Stengel<br>
+        <a
+          href="mailto:sekretariat@informatik.hs-mannheim.de"
+          class="inline-mail mail"
+          >sekretariat@informatik.hs-mannheim.de</a
+        >
+      </p>
+      <p>
+        <span class="bold-text">Fachstudienberatung:</span><br /><a
+        href="https://www.informatik.hs-mannheim.de/wir/menschen/aemter.html#c129913"
+        target="_blank"
+        class="inline-link external-link"
+        >Prof. Dr. Markus Gumbel</a
+      ><br>
+        <br /><a
+          href="mailto:bachelor.imb@informatik.hs-mannheim.de"
+          class="inline-mail mail"
+          >bachelor.imb@informatik.hs-mannheim.de</a
+        >
+      </p>
+      <p>
+        <span class="bold-text">Fragen zur Bewerbung:</span><br /><a
+          href="https://www.hs-mannheim.de/studierende/service-center-studierende.html"
+          title="Link zur HS Mannheim"
+          target="_blank"
+          class="inline-link external-link"
+          >Service Center Studierende</a
+        >
+      </p>
+      <p>
+        <span class="bold-text">Weitere Informationen rund ums Studium:</span><br />
+        <br /><a
+          href="https://www.informatik.hs-mannheim.de/"
+          class="inline-mail mail"
+          >Webseite der Fakultät für Informatik</a
+        >
+      </p>
+    </div>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/biotechnology.html ...
+Application Edge Case: schriftlich direkt an die Fakultät mit einem gesonderten <a href="https://www.biotech.hs-mannheim.de/fileadmin/user_upload/fakultaeten/fakultaet_b/Studiengaenge/Application_NEU.pdf" target="_blank" class="inline-link external-link">Bewerbungsformular</a>
+        <li>
+          Bewerbung über 
+          <a
+            href="https://www.biotech.hs-mannheim.de/fileadmin/user_upload/fakultaeten/fakultaet_b/Studiengaenge/Application_NEU.pdf"
+            class="inline-link external-link"
+            >Bewerbungsformular</a
+          >
+        </li>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/medizintechnik.html ...
+Application Edge Case: Elektronisch über die Fakultät, s. <a href="https://www.inftech.hs-mannheim.de/master/bewerben.html" title="Opens internal link in current window" target="_blank" class="inline-link external-link">Bewerbung</a>
+        <li>
+          Elektronisch über die Fakultät, s.&nbsp;
+          <a
+            href="https://www.inftech.hs-mannheim.de/master/bewerben.html"
+            class="inline-link external-link"
+            >Bewerben</a
+          >
+        </li>
+
+Parsing https://www.vct.hs-mannheim.de/studiengaenge/deutsch-franzoesisches-studienprogramm-vf.html ...
+No Table found in: https://www.vct.hs-mannheim.de/studiengaenge/deutsch-franzoesisches-studienprogramm-vf.html
+No Contact information for: https://www.vct.hs-mannheim.de/studiengaenge/deutsch-franzoesisches-studienprogramm-vf.html available!
+No Categorization found for: https://www.vct.hs-mannheim.de/studiengaenge/deutsch-franzoesisches-studienprogramm-vf.html (no html created)    
+-> linked to https://www.vct.hs-mannheim.de/studiengaenge/deutsch-franzoesisches-studienprogramm-vf.html
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/bachelorstudiengaenge/wirtschaftsingenieurwesen.html ...
+No Contact information for: https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/bachelorstudiengaenge/wirtschaftsingenieurwesen.html available!
+      <div class="degree-contact card">
+        <h2 class="">Kontakt</h2>
+        <div class="ce-textpic ce-center ce-above">
+          <div class="ce-bodytext">
+            <p>
+              <b>Fachstudienberatung</b><br />Prof. Dr. Graf<br /><span class="inline-telephone telephone"
+                >+49 621292 61 50<br /></span
+              ><a
+                href="mailto:bachelorWB@wing.hs-mannheim.de"
+                title="Opens window for sending email"
+                class="inline-mail mail"
+                >bachelorWB@wing.hs-mannheim.de</a
+              ><br /><a
+                href="https://www.hs-mannheim.de/professorenliste/professoren.php"
+                target="_blank"
+                class="inline-link external-link"
+                >Sprechzeiten</a
+              >
+            </p>
+            <p>&nbsp;</p>
+            <p class="indent">
+              <b>Fragen zur Bewerbung</b><br /><a
+                href="https://www.hs-mannheim.de/studierende/service-center-studierende.html"
+                target="_blank"
+                class="inline-link external-link"
+                >Service Center Studierende</a
+              ><br />
+            </p>
+            <p class="indent">&nbsp;</p>
+          </div>
+        </div>
+      </div>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/elektro-und-informationstechnik.html ...     
+Application Edge Case: <p><a href="http://www.ph-heidelberg.de/studium/interesse-am-studium/bewerbung/master-studiengaenge.html" title="externer Link zur PH Heidelberg" target="_blank" class="inline-link external-link">PH-Heidelberg</a><br>Zulassungsstelle</p>
+        <li>
+          Informieren sie sich bei der 
+          <a
+            href="https://www.ph-heidelberg.de/studium/interesse-am-studium/bewerbung/master-studiengaenge.html"
+            class="inline-link external-link"
+            >Universität Heidelberg</a
+          >
+        </li>
+
+Parsing https://www.hs-mannheim.de/studieninteressierte/unsere-studiengaenge/masterstudiengaenge/wirtschaftsingenieurwesen.html ...
+Application Edge Case: <a href="https://bewerbung.hs-mannheim.de/qisserver/rds?state=wimma&amp;stg=n&amp;imma=einl" title="Opens external link in new window" target="_blank" class="inline-link external-link">Online-Bewerbung</a>
+        <li>
+          Registrieren Sie sich online via
+          <a
+            href="https://bewerbung.hs-mannheim.de/qisserver/rds?state=wimma&stg=n&imma=einl"
+            class="inline-link external-link"
+            >HS-Mannheim</a
+          >
+        </li>
+
+Parsing https://www.wing.hs-mannheim.de/en/prospective-students/bachelor-in-engineering-and-management/at-a-glance.html ...
+No Contact information for: https://www.wing.hs-mannheim.de/en/prospective-students/bachelor-in-engineering-and-management/at-a-glance.html available!
+No Categorization found for: https://www.wing.hs-mannheim.de/en/prospective-students/bachelor-in-engineering-and-management/at-a-glance.html (no html created)
+-> added as external link https://www.wing.hs-mannheim.de/en/prospective-students/bachelor-in-engineering-and-management/at-a-glance.html
+
+Parsing https://www.english.hs-mannheim.de/study-programmes/bachelor-courses/mechanical-engineering.html ...
+No Contact information for: https://www.english.hs-mannheim.de/study-programmes/bachelor-courses/mechanical-engineering.html available!
+      <div class="degree-contact card">
+        <h2 class="">Contact</h2>
+        <p>
+          <b>Course-related advice<br /></b>Dean of studies<br /><b>Prof. Dr.-Ing. S. Halfmeier</b><br /><a
+            href="mailto:s.halfmeier@hs-mannheim.de"
+            title="Opens window for sending email"
+            class="inline-mail mail"
+            >s.halfmeier@hs-mannheim.de</a
+          >
+        </p>
+        <p>
+          <b>Application queries<br /></b
+          ><a
+            href="https://www.hs-mannheim.de/studierende/service-center-studierende.html"
+            title="Link zur HS Mannheim"
+            target="_blank"
+            class="inline-link external-link"
+            >Student Service Centre<br /></a
+          ><br /><b></b>
+        </p>
+        <p>
+          <b>General queries about bachelor's degree</b><br />Department M Secretariat<br /><a
+            href="mailto:sekretariat@maschinenbau.hs-mannheim.de"
+            class="inline-mail mail"
+            >sekretariat@maschinenbau.hs-mannheim.de</a
+          ><br />+49 621 292-6411
+        </p>
+        <p>
+          Further information
+          <a
+            href="http://www.mb.hs-mannheim.de/"
+            title="Fakultät für Maschinenbau"
+            target="_blank"
+            class="inline-link external-link"
+            >Department M information pagest</a
+          >
+        </p>
+      </div>
+
+Parsing https://www.english.hs-mannheim.de/study-programmes/bachelor-courses/medical-informatics.html ...
+No Contact information for: https://www.english.hs-mannheim.de/study-programmes/bachelor-courses/medical-informatics.html available!
+      <div class="degree-contact card">
+        <h2 class="">Contact</h2>
+        <p>
+          <span class="bold-text">Course-related advice</span><br /><a
+          href="https://www.informatik.hs-mannheim.de/wir/menschen/aemter.html#c129913"
+          target="_blank"
+          class="inline-link external-link"
+          >Prof. Dr. Markus Gumbel</a
+        ><br><span class="inline-telephone telephone">++49 621 292-6246</span>
+          <br /><a
+            href="mailto:m.gumbel@hs-mannheim.de"
+            class="inline-mail mail"
+            >m.gumbel@hs-mannheim.de</a
+          >
+        </p>
+        <p>
+          <span class="bold-text">General queries about bachelor's degree</span><br />
+          <a
+            href="https://www.informatik.hs-mannheim.de/fakultaet/sekretariat.html"
+            class="inline-link external-link"
+            >Department I secretariat</a
+          ><br>
+          <span class="inline-telephone telephone">+49 621 292-6229</span> | G. Aslan<br>
+          <span class="inline-telephone telephone">+49 621 292-6239</span> | R. Stengel<br>
+          <a
+            href="mailto:sekretariat@informatik.hs-mannheim.de"
+            class="inline-mail mail"
+            >sekretariat@informatik.hs-mannheim.de</a
+          >
+        </p>
+        <p>
+          <span class="bold-text">Application queries</span><br /><a
+            href="https://www.hs-mannheim.de/studierende/service-center-studierende.html"
+            title="Link zur HS Mannheim"
+            target="_blank"
+            class="inline-link external-link"
+            >Student Service Centre</a
+          >
+        </p>
+        <p>
+          <span class="bold-text">Further Information</span><br />
+          <br /><a
+            href="https://www.informatik.hs-mannheim.de/"
+            class="inline-mail mail"
+            >Department I information pages</a
+          >
+        </p>
+      </div>
+
+Parsing https://www.english.hs-mannheim.de/study-programmes/bachelor-courses/cyber-security.html ...
+No Table found in: https://www.english.hs-mannheim.de/study-programmes/bachelor-courses/cyber-security.html
+No Contact information for: https://www.english.hs-mannheim.de/study-programmes/bachelor-courses/cyber-security.html available!
+-> link to external page https://www.informatik.hs-mannheim.de/
+
+Parsing https://www.wing.hs-mannheim.de/en/prospective-students/bachelor-in-engineering-and-management-international/at-a-glance.html ...     
+No Contact information for: https://www.wing.hs-mannheim.de/en/prospective-students/bachelor-in-engineering-and-management-international/at-a-glance.html available!
+No Categorization found for: https://www.wing.hs-mannheim.de/en/prospective-students/bachelor-in-engineering-and-management-international/at-a-glance.html (no html created)
+-> added as external link https://www.wing.hs-mannheim.de/en/prospective-students/bachelor-in-engineering-and-management/at-a-glance.html
+
+Parsing https://www.english.hs-mannheim.de/study-programmes/master-courses/chemical-engineering.html ...
+No Table found in: https://www.english.hs-mannheim.de/study-programmes/master-courses/chemical-engineering.html
+No Contact information for: https://www.english.hs-mannheim.de/study-programmes/master-courses/chemical-engineering.html available!
+-> link to external page https://www.english.hs-mannheim.de/study-programmes/master-courses/chemical-engineering.html
+
+Parsing https://www.english.hs-mannheim.de/study-programmes/master-courses/computer-science.html ...
+No Table found in: https://www.english.hs-mannheim.de/study-programmes/master-courses/computer-science.html
+No Contact information for: https://www.english.hs-mannheim.de/study-programmes/master-courses/computer-science.html available!
+-> link to external page https://www.cs.hs-mannheim.de/
+
+Parsing https://www.wing.hs-mannheim.de/en/prospective-students/master-in-engineering-and-management/at-a-glance.html ...
+No Contact information for: https://www.wing.hs-mannheim.de/en/prospective-students/master-in-engineering-and-management/at-a-glance.html available!
+No Categorization found for: https://www.wing.hs-mannheim.de/en/prospective-students/master-in-engineering-and-management/at-a-glance.html (no html created)
+-> link to external page https://www.wing.hs-mannheim.de/en/prospective-students/master-in-engineering-and-management/at-a-glance.html
+
+Parsing https://www.english.hs-mannheim.de/study-programmes/master-courses/information-technology.html ...
+No Table found in: https://www.english.hs-mannheim.de/study-programmes/master-courses/information-technology.html
+No Contact information for: https://www.english.hs-mannheim.de/study-programmes/master-courses/information-technology.html available!
+-> link to external page https://www.english.hs-mannheim.de/study-programmes/master-courses/information-technology.html
