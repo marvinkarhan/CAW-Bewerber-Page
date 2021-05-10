@@ -2,19 +2,27 @@
   <link rel="stylesheet" href="degree.css" />
   <link rel="stylesheet" href="../global.css" />
   <link rel="stylesheet" href="../sidebar.css" />
+  <link rel="stylesheet" href="../outsourced.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans"
-    rel="stylesheet"
-  />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans" rel="stylesheet" />
+  <style>
+    * {
+      font-family: 'Merriweather Sans';
+    }
+  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <!-- remove the above when importing into the cms -->
 <div class="application-wrapper">
   <div class="application-main-content">
     <h1 class="application-title">Bitte wählen Sie den Abschluss</h1>
     <div class="degree-cards">
-      <a href="https://c-campus.hs-mannheim.de/qisserver/pages/cs/sys/portal/linkedPortlet.faces?portletGuid=cec79cdb-38fd-43fc-8dac-8f33bec6cc01&sig=c8d5461e8b3562b6da1091e7e3b60412" class="blue-card bold-white-text">Bachelorstudiengänge </a>
-      <a href="https://c-campus.hs-mannheim.de/qisserver/pages/cs/sys/portal/linkedPortlet.faces?portletGuid=4a3f05e1-9409-4afd-b106-34294e9bc993&sig=3cd109ec018e796b59df74f9c5ab2284" class="blue-card bold-white-text">Masterstudiengänge </a>
+      <a href="?page=s_application_bachelor" class="blue-card dark-background-link bold-text"
+        >Bachelorstudiengänge
+      </a>
+      <a href="?page=s_application_master" class="blue-card dark-background-link bold-text"
+        >Masterstudiengänge
+      </a>
     </div>
     <div>
       <div class="application-title degree-faq-title">FAQ</div>
@@ -30,19 +38,19 @@
             </div>
           </li>
           <li id="q2" class="accordion-item">
-              <a class="accordion-title" href="#two">Ab wann ist die Online-Bewerbung möglich?</a>
-              <div class="accordion" id="two">
-                <a class="accordion-close" href="#q2"></a>
-                Für das Sommersemester 2021 können Sie sich für die Bachelorstudiengänge ab dem 1. Dezember 2020 online bewerben.
-                Für die Masterstudiengänge können Sie sich ebenfalls ab dem 1. Dezember 2020 bewerben.
-              </div>
+            <a class="accordion-title" href="#two">Ab wann ist die Online-Bewerbung möglich?</a>
+            <div class="accordion" id="two">
+              <a class="accordion-close" href="#q2"></a>
+              Für das Sommersemester 2021 können Sie sich für die Bachelorstudiengänge ab dem 1. Dezember 2020 online
+              bewerben. Für die Masterstudiengänge können Sie sich ebenfalls ab dem 1. Dezember 2020 bewerben.
+            </div>
           </li>
           <li id="q3" class="accordion-item">
             <a class="accordion-title" href="#three">Wann ist der Bewerbungsschluss?</a>
             <div class="accordion" id="three">
               <a class="accordion-close" href="#q3"></a>
-              Die Bewerbung mit den vollständigen Unterlagen muss zu folgenden Fristen an der Hochschule Mannheim eingegangen
-              sein:
+              Die Bewerbung mit den vollständigen Unterlagen muss zu folgenden Fristen an der Hochschule Mannheim
+              eingegangen sein:
               <ul>
                 <li>Sommersemester bis 15. Januar (Bachelor und Master)</li>
                 <li>Für das Wintersemester (Bachelor) bis 31. Juli</li>
@@ -64,7 +72,7 @@
       <li><a class="link-text" target="_blank" href="https://www.hs-mannheim.de/bewerbung/zulassungsvoraussetzungen.html">Zulassungsvorraussetzungen</a></li>
     </ul>
     <div class="sidebar-steps">
-      <a href="https://c-campus.hs-mannheim.de/qisserver/pages/cs/sys/portal/linkedPortlet.faces?portletGuid=88fde149-9fce-4dcc-8cee-8a5a8207bea7&sig=3344a8ffbff58348d1d26b591057b03b" class="sidebar-step-item">
+      <a href="?page=student_application" class="sidebar-step-item">
         <div class="sidebar-step-item-circle active">1</div>
         <div class="sidebar-step-item-text active">Abschluss wählen</div>
       </a>
@@ -79,7 +87,7 @@
         <div class="sidebar-step-item-text">Bewerbung durchführen</div>
       </a>
     </div>
-
+  
     <div class="sidebar-contact">
       <div class="sidebar-contact-header small-text">Kontakt</div>
       <div class="sidebar-contact-address">
@@ -88,11 +96,11 @@
         <div class="small-text">68163 Mannheim</div>
       </div>
       <ul class="sidebar-contact-communication">
-        <li class="sidebar-contact-communication-item telephone">
-          <a href="tel:" class="small-text">+49 621 292-6111</a>
+        <li class="sidebar-contact-communication-item">
+          <a href="tel:" class="list-link telephone">+49 621 292-6111</a>
         </li>
-        <li class="sidebar-contact-communication-item small-text mail">
-          <a href="mailto:studium@hs-mannheim.de" class="regular-text">studium@hs-mannheim.de</a>
+        <li class="sidebar-contact-communication-item small-text">
+          <a href="mailto:studium@hs-mannheim.de" class="mail">studium@hs-mannheim.de</a>
         </li>
       </ul>
     </div>
