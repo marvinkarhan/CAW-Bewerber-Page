@@ -69,7 +69,7 @@ div.degree-faq-title {
   pointer-events: none;
   font-size: 24pt;
   left: 8px;
-  top: 0;
+  top: -2px;
   transition: transform 0.15s ease-in-out;
   color: var(--primary-white);
 }
