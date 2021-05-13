@@ -24,8 +24,8 @@
 .telephone::before, .mail::before, .link-text::before {
   content: "";
   display: inline-block;
-  height: 24px;
-  width: 24px;
+  min-height: 24px;
+  min-width: 24px;
   margin-right: 8px;
   background-repeat: no-repeat;
 }
