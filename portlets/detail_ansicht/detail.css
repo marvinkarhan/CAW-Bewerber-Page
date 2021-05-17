@@ -4,6 +4,15 @@
   gap: 50px;
 }
 
+.application-main-content-hidden:target {
+  display: block;
+}
+
+.application-main-content-hidden {
+  display: none;
+}
+
+
 .degree-information {
   text-align: left;
   flex: 1 0 550px;
@@ -26,6 +35,7 @@
   flex: 0 1 250px;
   gap: 0;
   height: fit-content;
+  width: fit-content;
 }
 
 .degree-next-steps {

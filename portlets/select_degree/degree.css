@@ -3,13 +3,7 @@
   width: 100%;
   gap: 4%;
   margin-bottom: 52px;
-}
-
-@media screen and (max-width: 425px) {
-  .degree-cards {
-    flex-wrap: wrap;
-    gap: 1em;
-  }
+  font-size: 24px;
 }
 
 div.degree-faq-title {
@@ -100,4 +94,11 @@ div.degree-faq-title {
 
 .application-wrapper .accordion-close:hover, .application-wrapper .accordion-close:active {
   background-color: transparent !important;
+}
+
+@media screen and (max-width: 425px) {
+  .degree-cards {
+    flex-wrap: wrap;
+    gap: 1em;
+  }
 }
