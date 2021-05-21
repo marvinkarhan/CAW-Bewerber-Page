@@ -35,7 +35,7 @@ div.degree-faq-title {
 
 .accordion-title {
   box-sizing: border-box;
-  color: var(--primary-white);
+  color: #ffffff;
   background-color: var(--primary-background-color);
   width: 100%;
   padding: 8px 1em 8px 35px;
@@ -65,7 +65,7 @@ div.degree-faq-title {
   left: 8px;
   top: -2px;
   transition: transform 0.15s ease-in-out;
-  color: var(--primary-white);
+  color: #ffffff;
 }
 
 .accordion:target:before {

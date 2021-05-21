@@ -24,7 +24,7 @@
   width: 60px;
   height: 60px;
   border: 2px solid var(--primary-color-disabled);
-  background-color: var(--primary-white);
+  background-color: #ffffff;
   border-radius: 50%;
   font-weight: bold;
   font-size: 26px;
@@ -36,7 +36,7 @@
 .sidebar-step-item-circle.active {
   border: 2px solid var(--primary-background-color);
   background-color: var(--primary-background-color);
-  color: var(--primary-white);
+  color: #ffffff;
 }
 
 .sidebar-step-item-text {
@@ -104,5 +104,12 @@
 
   .sidebar-contact {
     margin-top: 21px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .application-sidebar {
+    padding: 0;
+    font-size: 14px!important;
   }
 }
