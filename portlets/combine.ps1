@@ -1,6 +1,6 @@
 Remove-Item -Path ./combined.css
 
-$allscripts = Get-ChildItem -Path  . -Filter "*.css" -Exclude "master.css" -Recurse
+$allscripts = Get-ChildItem -Path  . -Filter "*.css" -Exclude "master.css", "outsourced.css" -Recurse
 
 New-Item -Path . -Name "combined.css" -ItemType "file" -Value ""
 foreach ($script in $allscripts) {
